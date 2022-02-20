@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie and PicPay</title>
+</head>
+<body>
+    <h1>Curso Kenzie | PicPay</h1>
+    <p><strong>Resumo do que foi aprendido</strong> </p>
+    <h2 id="html">HTML</h2>
+    <h3>Introdução</h3>
+    <p>HTML (<cite>Hyper Text Markup Language</cite>) ou em Portugues Linguagem de Marcação de Hipertexto, <br>
+       criado por Tim Berners-Lee Hoje em dia é considerado um componente base da web, permitindo <br>
+       criação de websites e a inserção de novos conteúdos, como imagens e vídeos por meio dos Hipertextos.
+    </p>
+    <h3>Tags</h3>
+    <p>
+        As Tags são usadas para que o navegador entenda como as coisas deve ser apresentadas visualmente para o usuário. <br>
+        As tags ficam dentro dos sinais, menor que (&lt;) e maior que (&gt;), usamos o caractere (/) para indicar fechamento da tag. <br>
+        <br>
+        <strong>Exemplo</strong><br>
+        <br>
+        &lt;tag&gt;  &lt;/tag&gt;
+    </p>
+    <h3>Algumas tags</h3>
+    <p>
+        &lt;h1&gt; Titulo da Página &lt;/h1&gt; <br>
+        Vai do H1 até H6 <br> <br>
+        &lt;p&gt; paragráfos &lt;/p&gt; <br><br>
+        <a href="https://neilpatel.com/br/blog/tags-html/">Leia mais</a>
+    </p>
+    <h3>Entidades</h3>
+    <p>
+        São caracteres reservados para o HTML como menor do que <mark> &lt;</mark>, maior do que <mark>&gt;</mark>, e comercial <mark>&amp;</mark>, aspas <mark>&quot; </mark> 
+        <br>
+    </p>
+    <h3>Estrutura Básica para um pagina HTML</h3>
+    <img src="./Imagens/est-basica-html.PNG" alt="Estrutura basica de um HTML">
+    <p>
+        <strong> &lt;!DOCTYPE html&gt; </strong> <br>
+        Essa tag/declaração informa qual a versão do HTML está sendo usada no site,<br> 
+        importante ele estar especificamente na primeira linha do seu arquivo HTML.
+    </p>
+    <p>
+        <strong>&lt;html&gt; &lt;/html&gt;  </strong> <br>
+        Essa é a Tag raiz, todo o código deverá estar dentro dela.
+    </p>
+    <p>
+        <strong>&lt;head&gt; &lt;/head&gt;  </strong> <br>
+        Contem descrições de sua página, como título &lt;title&gt; 
+    </p>
+    <p>
+        <strong>&lt;body&gt; &lt;/body&gt;  </strong> <br>
+        É o corpo da sua página, representa o conteudo do documento.
+    </p>
+    <h3>Listas no HTML</h3>
+    <p>
+        Possui dois tipo de lista:
+    </p>
+    <ul>
+        <li><Strong>UNORDERED LISTS</Strong><br>
+              Listas nao Ordenadas - A Ordem dos itens nao importa, podendo reorganizar a lista e continuara fazendo sentido <br>
+              Usamos a tag &lt;ul&gt; colocando os itens dentro  &lt;li&gt; item &lt;/li&gt; &lt;/ul&gt;
+        </li>
+        <li><Strong>ORDERED LISTS</Strong> <br>
+        Listas Ordenadas - A ordem importa <br>
+        Usamos a tag &lt;ol&gt; colocando os itens dentro  &lt;li&gt; item &lt;/li&gt; &lt;/ol&gt;
+        </li>
+    </ul>
+    <p><strong>Exemplo</strong></p>
+    <h4>Minhas Músicas</h4>
+    <ul>
+        <li>Pagode</li>
+        <li>Pop </li>
+        <li>Funk</li>
+        <li>Sertanejo</li>
+        <li>Rap</li>
+        <li>Rock
+            <ol>
+                <li>Foo Fighters</li>
+                <li>Arctic Monkey </li>
+                <li>King of Leon</li>
+                <li>Samurai</li>
+                <li>Raimundos</li>
+            </ol>
+        </li>
+    </ul>
+    <h4>Mais ouvidas</h4>
+    <p>Podemos usar atributos, como reversed para deixar a lista de ordem reversa</p>
+    <ol reversed >
+        <li>Foo Fighters</li>
+        <li>Arctic Monkey </li>
+        <li>King of Leon</li>
+        <li>Samurai</li>
+        <li>Raimundos</li>
+    </ol>
+    <h3>Hyperlinks</h3>
+    <p>
+        Hyperlink serve para te redirecionar para outra pagina. usando a tag <br> <br>
+        &lt;a&gt; href=&quot;link do local&quot; texto &lt;/a&gt; <br>
+        <strong>Ancora</strong> <br>
+        Podemos tambem usar como ancora para no site. <br>
+        &lt;a&gt; href=&quot;#id&quot; texto &lt;/a&gt; <br>
+
+        <p><strong>Exemplo</strong></p>
+        Link exterior 
+        <a href="https://www.google.com" >Acessar o google</a> <br>
+        Usando o atributo target="_blank" a página será aberta em outra aba 
+         <a href="https://www.google.com" target="_blank">Acessar o google</a> <br>
+        Ancora 
+        <a href="#html">Ir para o H2 "HTML"</a>
+    </p>
+    <h3>Incorporando Imagens</h3>
+    <p>Para inserir uma imagem usamos o elemento &lt;img&gt; não possui tag de fechamento <br> <br>
+    COMANDO <br>
+    &lt;img src="link da imagem" atributos alt="resumindo a imagem"> <br> <br>
+    ALGUNS ATRIBUTOS <br>
+    altura - width="tamanho" <br>
+    largura - height="tamanho" <br>
+    </p>
+    <img src="./Imagens/eu.png" width="150" alt="Foto Lohran"><br>
+    <br>
+    <img src="./Imagens/gifs/picasion.com_7123cbd1f4d86f2bcc0d6b6c19c837eb.gif" width="150" alt="gif">
+</body>
+</html>
